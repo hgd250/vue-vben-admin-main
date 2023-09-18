@@ -3,4 +3,6 @@ export default {
   about: 'About',
   workbench: 'Workbench',
   analysis: 'Analysis',
+  homeless: 'My Item',
+  search: 'Search',
 };

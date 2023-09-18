@@ -31,6 +31,22 @@ const dashboard: AppRouteModule = {
         title: t('routes.dashboard.workbench'),
       },
     },
+    {
+      path: 'homeless',
+      name: 'homeless',
+      component: () => import('/@/views/dashboard/homeless/index.vue'),
+      meta: {
+        title: t('routes.dashboard.homeless'),
+      },
+    },
+    {
+      path: 'search',
+      name: 'search',
+      component: () => import('/@/views/dashboard/homeless/search/index.vue'),
+      meta: {
+        title: t('routes.dashboard.search'),
+      },
+    },
   ],
 };
 

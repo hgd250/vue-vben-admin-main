@@ -24,11 +24,15 @@
   const tabListTitle = [
     {
       key: 'tab1',
-      tab: '流量趋势',
+      tab: 'Trend',
     },
     {
       key: 'tab2',
-      tab: '访问量',
+      tab: 'Homeless ',
+    },
+    {
+      key: 'tab3',
+      tab: 'Permanent ',
     },
   ];
 
